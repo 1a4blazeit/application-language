@@ -14,11 +14,18 @@
         android:layout_height="wrap_content"
         android:onClick="translate"
         android:text="Translate!" />
-
-    <ListView
-        android:id="@+id/list"
+    <TextView
+        android:id="@+id/text"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
 
 </LinearLayout>
