@@ -34,10 +34,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mArrayAdapter = new ArrayAdapter(this, R.layout.listitem);
-        ListView list = (ListView)findViewById(R.id.list);
-        list.setAdapter(mArrayAdapter);
-
+        //mArrayAdapter = new ArrayAdapter(this, R.layout.listitem);
+        //ListView list = (ListView)findViewById(R.id.list);
+        //list.setAdapter(mArrayAdapter);
 
     }
 
